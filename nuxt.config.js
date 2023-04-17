@@ -1,4 +1,22 @@
+import locations from './locations';
+
 export default {
+  router: {
+    extendRoutes(routes, resolve) {
+      for (const fromLocation of locations) {
+        for (const toLocation of locations) {
+          // 檢查出發地和目的地是否不同
+          if (fromLocation.id !== toLocation.id) {
+            routes.push({
+              name: `${fromLocation.name}-to-${toLocation.name}`,
+              path: `/${fromLocation.name}/${toLocation.name}`,
+              component: resolve(__dirname, 'pages/_from/_to.vue'),
+            });
+          }
+        }
+      }
+    },
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'tourcar',
@@ -12,7 +30,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://www.taiwantourcar.com/wp-content/uploads/2019/03/logo-3.png' }
     ]
   },
 

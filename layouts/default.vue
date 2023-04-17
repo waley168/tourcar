@@ -8,7 +8,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <img src="~assets/buefy.png" alt="Buefy" height="28" />
+            <img src="https://www.taiwantourcar.com/wp-content/uploads/2020/01/logo-tr.png" alt="夢玩家包車旅遊" height="60" />
           </a>
           <a
             role="button"
@@ -50,6 +50,7 @@
 
     <section class="section">
       <div class="container">
+        <Nuxt />
         <!-- 內容區域 1 -->
       </div>
     </section>
