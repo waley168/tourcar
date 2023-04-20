@@ -29,15 +29,28 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
+    script: [
+      {
+        src: 'https://taiwantourcar.com/route/js/custom.js',
+        async: true, // 如果需要异步加载
+        defer: true, // 如果需要延迟加载
+      },
+    ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://www.taiwantourcar.com/wp-content/uploads/2019/03/logo-3.png' }
+      { rel: 'icon', type: 'image/x-icon', href: 'https://www.taiwantourcar.com/wp-content/uploads/2019/03/logo-3.png' },
+      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/bootstrap.min.css' },
+      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/main_styles.css' },
+      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/responsive.css' },
+      { rel: 'preload', as: 'script', src: 'https://taiwantourcar.com/route/js/custom.js' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
-
+  env: {
+    basePath: 'https://www.taiwantourcar.com/route/',
+  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -52,7 +65,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/buefy
-    'nuxt-buefy',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
