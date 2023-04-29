@@ -410,7 +410,7 @@
                 <div id="google_map" class="google_map">
                   <iframe
                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftaiwantourcar%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
-                    width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    width="200" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                     allowfullscreen="true"
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
@@ -456,12 +456,10 @@
       <a href="https://page.line.me/?accountId=yyy888" target="_blank" class="active"
         onclick="ga('send', 'event', 'line', 'click');"><img width="25px"
           src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg"> Line詢問報價</a>
-      <!----><a href="tel:+886968738810" onclick="ga('send', 'event', 'phone', 'click');"><img width="25px"
-          src="https://taiwantourcar.com/charter-tour/images/phone-solid.svg"> 電話 0968738810</a>
-      <a href="#"><img width="25px"
-          src="https://taiwantourcar.com/charter-tour/images/weixin-brands.svg"> a0968738810</a>
-      <a href="https://wa.me/886975552776" target="_blank"><img width="25px"
-          src="https://taiwantourcar.com/charter-tour/images/whatsapp-brands.svg"> Whatsapp</a>
+      <!----><a href="tel:+886968738810" onclick="ga('send', 'event', 'phone', 'click');"><i
+          class="fa fa-phone fa-lg"></i> 電話 0968738810</a>
+      <a href="#"><i class="fa fa-wechat fa-lg"></i> a0968738810</a>
+      <a href="https://wa.me/886975552776" target="_blank"><i class="fa fa-whatsapp fa-lg"></i> Whatsapp</a>
       <!-- <a href="mailto:bigplayer68810@gmail.com"><i class="fa fa-envelope fa-lg"></i> email來信</a>-->
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776; 其他聯絡方式</a>
     </div>
