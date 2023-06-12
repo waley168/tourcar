@@ -1,8 +1,9 @@
 import locations from './locations';
 
 const generateLocationPairs = () => {
-  const highWeightLocations = locations.filter(location => location.weight >= 7);
-  const lowWeightLocations = locations.filter(location => location.weight < 7);
+  const highWeightLocations = locations.filter(location => location.weight > 10);
+  const lowWeightLocations = locations.filter(location => location.weight > 10);
+  const targetLocations = locations.filter(location => location.id >= 31 && location.id <= 50);
 
   const highWeightPairs = [];
   highWeightLocations.forEach(fromLocation => {
@@ -25,7 +26,16 @@ const generateLocationPairs = () => {
     });
   });
 
-  return [...highWeightPairs, ...randomPairs];
+  const pairs = [];
+  locations.forEach(fromLocation => {
+    targetLocations
+      .filter(toLocation => fromLocation.id !== toLocation.id)
+      .forEach(toLocation => {
+        pairs.push([fromLocation, toLocation]);
+      });
+  });
+
+  return [...highWeightPairs, ...randomPairs, ...pairs];
 };
 
 const locationPairs = generateLocationPairs();
