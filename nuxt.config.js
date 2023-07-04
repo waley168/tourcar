@@ -59,7 +59,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tourcar',
+    title: 'wholealphard',
     htmlAttrs: {
       lang: 'zh-TW'
     },
@@ -71,12 +71,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://taiwantourcar.com/route/js/custom.js',
-        async: true, // 如果需要异步加载
-        defer: true, // 如果需要延迟加载
-      },
-      {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-PFG5ZFP6K3',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-Z691T4Q3Q7',
         async: true,
       },
       // Google Analytics
@@ -86,7 +81,7 @@ export default {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-PFG5ZFP6K3');
+          gtag('config', 'G-Z691T4Q3Q7');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
@@ -99,7 +94,7 @@ export default {
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-KKS367C');
+          })(window,document,'script','dataLayer','GTM-5HHQ359');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
@@ -107,12 +102,10 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ["script"],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://www.taiwantourcar.com/wp-content/uploads/2019/03/logo-3.png' },
-      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/bootstrap.min.css' },
-      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/main_styles.css' },
-      { rel: 'stylesheet', href: 'https://taiwantourcar.com/route/styles/responsive.css' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css' },
-      { rel: 'preload', as: 'script', src: 'https://taiwantourcar.com/route/js/custom.js' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://wholealphard.com/wp-content/uploads/2023/06/whole_alphard_logo.png' },
+      { rel: 'stylesheet', href: 'https://wholealphard.com/assets/main.css' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css' },
+  
     ]
   },
 
@@ -137,7 +130,7 @@ export default {
   modules: ['@nuxtjs/sitemap'],
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://www.taiwantourcar.com', // 替换为你的网站域名
+    hostname: 'https://wholealphard.com', // 替换为你的网站域名
     gzip: true,
     routes: generateRoutes(),
   },
