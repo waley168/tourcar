@@ -1,41 +1,18 @@
 import locations from './locations';
 
 const generateLocationPairs = () => {
-  const highWeightLocations = locations.filter(location => location.weight > 10);
-  const lowWeightLocations = locations.filter(location => location.weight > 10);
-  const targetLocations = locations.filter(location => location.id >= 31 && location.id <= 50);
+  const highWeightLocationsFrom = locations.filter(location => location.id >= 121 && location.id <= 122);
+  const highWeightLocationsTo = locations.filter(location => location.weight > 1);
 
   const highWeightPairs = [];
-  highWeightLocations.forEach(fromLocation => {
-    highWeightLocations
+  highWeightLocationsFrom.forEach(fromLocation => {
+    highWeightLocationsTo
       .filter(toLocation => fromLocation.id !== toLocation.id)
       .forEach(toLocation => {
         highWeightPairs.push([fromLocation, toLocation]);
       });
   });
-
-  const randomPairs = [];
-  lowWeightLocations.forEach(fromLocation => {
-    const randomToLocations = lowWeightLocations
-      .filter(location => location.id !== fromLocation.id)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 10);
-
-    randomToLocations.forEach(toLocation => {
-      randomPairs.push([fromLocation, toLocation]);
-    });
-  });
-
-  const pairs = [];
-  locations.forEach(fromLocation => {
-    targetLocations
-      .filter(toLocation => fromLocation.id !== toLocation.id)
-      .forEach(toLocation => {
-        pairs.push([fromLocation, toLocation]);
-      });
-  });
-
-  return [...highWeightPairs, ...randomPairs, ...pairs];
+  return [...highWeightPairs];
 };
 
 const locationPairs = generateLocationPairs();
@@ -113,7 +90,7 @@ export default {
   css: [
   ],
   env: {
-    basePath: 'https://www.taiwantourcar.com/route/',
+    basePath: 'https://wholealphard.com/route/',
   },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -137,8 +114,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: 'https://wholealphard.com/route/_nuxt/',
   },
   render: {
-    injectScripts: false,
+    injectScripts: true,
   }
 }
