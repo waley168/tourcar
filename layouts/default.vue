@@ -5,14 +5,14 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a rel="noopener noreferrer" href="https://wholealphard.com/">首頁</a></li>
-                    <li aria-current="page" class="breadcrumb-item active">{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車|商務租車|家庭旅遊|到府牽車</li>
+                    <li aria-current="page" class="breadcrumb-item active">{{ fromLocation.name }}阿法租車|商務租車|家庭旅遊|到府牽車</li>
                 </ol>
             </nav>
             <div class="hero-img"
                 style="background-image: url('https://wholealphard.com/wp-content/uploads/2023/06/wholealphard-banner01.png');">
             </div>
             <nuxt></nuxt>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車服務項目</h2>
+            <h2>{{ fromLocation.name }}阿法租車服務項目</h2>
             <div class="content">
                 <div class="section portion3">
                     <div class="img-container"
@@ -61,7 +61,7 @@
                     </ol>
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車價目表</h2>
+            <h2>{{ fromLocation.name }}阿法租車價目表</h2>
             <div class="content">
                 <div class="section portion3">
                     <table>
@@ -118,7 +118,7 @@
                     <img src="https://wholealphard.com/wp-content/uploads/2023/06/plan.png" />
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}Alphard包車價格</h2>
+            <h2>{{ fromLocation.name }}Alphard包車價格</h2>
             <div class="content">
                 <div class="section portion3">
                     <table>
@@ -158,7 +158,7 @@
                     <img src="https://wholealphard.com/wp-content/uploads/2023/06/price.png" />
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車評價推薦</h2>
+            <h2>{{ fromLocation.name }}阿法租車評價推薦</h2>
             <figure
                 class="wp-block-gallery has-nested-images columns-2 uag-masonry uagb-block-a967a954 wp-block-gallery-4 is-layout-flex">
                 <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="761" height="936"
@@ -320,7 +320,7 @@
                         srcset="https://wholealphard.com/wp-content/uploads/2023/06/0001-22.png 746w, https://wholealphard.com/wp-content/uploads/2023/06/0001-22-300x88.png 300w, https://wholealphard.com/wp-content/uploads/2023/06/0001-22-150x44.png 150w"
                         sizes="(max-width: 746px) 100vw, 746px"></figure>
             </figure>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}車款介紹</h2>
+            <h2>{{ fromLocation.name }}車款介紹</h2>
             <div class="content">
                 <div class="section portion45">
                     <h3><a href="https://wholealphard.com/alphard/">Toyota&nbsp; ALPHARD</a></h3>
@@ -370,7 +370,7 @@
                     </ul>
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車流程</h2>
+            <h2>{{ fromLocation.name }}阿法租車流程</h2>
             <ol>
                 <li>貴賓詢價並提供日期、地點、行程內容後，客服人員協助確認車輛。</li>
                 <li>為您確認車輛後，報價並提供訂車單與車輛參考照片，接續付訂流程。</li>
@@ -413,7 +413,7 @@
                     <img src="https://wholealphard.com/wp-content/uploads/2023/06/flow.png" />
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車常見問題</h2>
+            <h2>{{ fromLocation.name }}阿法租車常見問題</h2>
             <div class="content">
                 <div class="faq-container">
                     <div class="faq-item">
@@ -453,7 +453,7 @@
 
 
             </div>
-            <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}家庭/企業租車活動花絮</h2>
+            <h2>{{ fromLocation.name }}家庭/企業租車活動花絮</h2>
             <h3><a href="https://wholealphard.com/portfolio/">看更多阿法租車成功案例</a></h3>
             <div class="content">
                 <div class="section portion3">
@@ -523,9 +523,6 @@ export default {
     fromLocation() {
       return this.$store.state.fromLocation;
     },
-    toLocation() {
-      return this.$store.state.toLocation;
-    }
   },
 };
 </script>
