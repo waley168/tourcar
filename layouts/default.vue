@@ -5,22 +5,22 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a rel="noopener noreferrer" href="https://wholealphard.com/">首頁</a></li>
-                    <li aria-current="page" class="breadcrumb-item active">{{ fromLocation.name }}阿法租車|商務租車|家庭旅遊|到府牽車</li>
+                    <li aria-current="page" class="breadcrumb-item active">{{ fromLocation.name }}阿法包車|結婚禮車|家庭旅遊|活動接送</li>
                 </ol>
             </nav>
             <div class="hero-img"
                 style="background-image: url('https://wholealphard.com/wp-content/uploads/2023/06/wholealphard-banner01.png');">
             </div>
             <nuxt></nuxt>
-            <h2>{{ fromLocation.name }}阿法租車服務項目</h2>
+            <h2>{{ fromLocation.name }}阿法包車服務項目</h2>
             <div class="content">
                 <div class="section portion3">
                     <div class="img-container"
                         style="background-image: url('https://wholealphard.com/wp-content/uploads/2023/06/17s04004_01_photo01_with_car_347e5393ed0cc6c120c2afc74c3d8aa3-thumb-600xauto-1315.jpg');">
                     </div>
-                    <h3>個人租車自駕</h3>
+                    <h3>個人包車自駕</h3>
                     <ol>
-                        <li><strong>租車旅遊</strong>：在我們的網站上，您可以輕鬆租用Alphard車型，為您的道路旅行提供最大的舒適性和便利性。我們的Alphard車型空間寬敞，不僅適合家庭旅遊，也是朋友聚會的理想選擇。
+                        <li><strong>包車旅遊</strong>：在我們的網站上，您可以輕鬆租用Alphard車型，為您的道路旅行提供最大的舒適性和便利性。我們的Alphard車型空間寬敞，不僅適合家庭旅遊，也是朋友聚會的理想選擇。
                         </li>
                         <li><strong>醫美旅行</strong>：規劃一趟醫美之旅？選擇我們的Alphard車型，讓您的旅程更加舒適和私密。無論是前往高級醫美診所或醫療設施，我們的車輛都能提供您最安全，最隱私，最舒適的環境。阿法的內裝豪華，讓您的醫美之旅增添尊貴與高級感。
                         </li>
@@ -39,7 +39,7 @@
                     <ol>
                         <li><strong>長期商務租賃</strong>：我們提供阿法車型給企業或公司行號進行長期租賃。無論您需要車輛接待重要客戶，或者是為員工提供舒適的交通方式，我們的Alphard車型都能滿足您的需求。其豪華內裝和先進的安全設施，必定讓您的公司在客戶或員工心中留下深刻的印象。
                         </li>
-                        <li><strong>企業活動租車</strong>：如果您的公司正在規劃企業活動，如團建活動、展覽會、研討會等，我們的Alphard車型都是不二之選。我們的長期租賃方案可以為您提供最大的靈活性和便利性，讓您的企業活動得以順利進行。
+                        <li><strong>企業活動包車</strong>：如果您的公司正在規劃企業活動，如團建活動、展覽會、研討會等，我們的Alphard車型都是不二之選。我們的長期租賃方案可以為您提供最大的靈活性和便利性，讓您的企業活動得以順利進行。
                         </li>
                         <li><strong>員工福利車輛</strong>：我們的阿法車型也適合作為員工福利車輛。您的員工將對於能夠使用這種豪華的車輛感到驚喜。長期租賃計劃可以幫助您節省時間和精力，不需要自己進行車輛的維護和管理。
                         </li>
@@ -50,7 +50,7 @@
                     <div class="img-container"
                         style="background-image: url('https://wholealphard.com/wp-content/uploads/2023/06/cjen.png');">
                     </div>
-                    <h3>包車代駕/租車附司機</h3>
+                    <h3>包車代駕/包車附司機</h3>
                     <ol>
                         <li><strong>旅遊包車代駕</strong>：我們的Alphard車型提供包車代駕服務，讓您可以無憂地享受您的旅程。我們的專業司機能夠帶您探索台灣的每一個角落，讓您的旅行更加輕鬆和舒適。在旅遊期間，您無需擔心停車或導航問題，只需專心享受您的旅行。
                         </li>
@@ -61,25 +61,25 @@
                     </ol>
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}阿法租車價目表</h2>
+            <h2>{{ fromLocation.name }}阿法包車價目表</h2>
             <div class="content">
                 <div class="section portion3">
                     <table>
                         <thead>
                             <tr>
-                                <th>租車專案</th>
+                                <th>包車專案</th>
                                 <th>價格 / 時間</th>
                                 <th>說明</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>一日租車</td>
+                                <td>一日包車</td>
                                 <td>$7,500 / 日</td>
                                 <td>每日以24小時計算，單日行駛里程數250公里。</td>
                             </tr>
                             <tr>
-                                <td>多日租車</td>
+                                <td>多日包車</td>
                                 <td>$7,500 / 日</td>
                                 <td>多日租優惠：承租2日（含）以上，優惠單日里程為300公里。</td>
                             </tr>
@@ -100,15 +100,15 @@
                         <tbody>
                             <tr>
                                 <td>高屏地區</td>
-                                <td>租車3日（含）以上，提供免費到府收送</td>
+                                <td>包車3日（含）以上，提供免費到府收送</td>
                             </tr>
                             <tr>
                                 <td>雲嘉南地區</td>
-                                <td>租車4日（含）以上，提供免費到府收送</td>
+                                <td>包車4日（含）以上，提供免費到府收送</td>
                             </tr>
                             <tr>
                                 <td>中彰投地區</td>
-                                <td>租車5日（含）以上，提供免費到府收送</td>
+                                <td>包車5日（含）以上，提供免費到府收送</td>
                             </tr>
                             <!-- Add more rows as needed -->
                         </tbody>
@@ -158,7 +158,7 @@
                     <img src="https://wholealphard.com/wp-content/uploads/2023/06/price.png" />
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}阿法租車評價推薦</h2>
+            <h2>{{ fromLocation.name }}阿法包車評價推薦</h2>
             <figure
                 class="wp-block-gallery has-nested-images columns-2 uag-masonry uagb-block-a967a954 wp-block-gallery-4 is-layout-flex">
                 <figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="761" height="936"
@@ -370,7 +370,7 @@
                     </ul>
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}阿法租車流程</h2>
+            <h2>{{ fromLocation.name }}阿法包車流程</h2>
             <ol>
                 <li>貴賓詢價並提供日期、地點、行程內容後，客服人員協助確認車輛。</li>
                 <li>為您確認車輛後，報價並提供訂車單與車輛參考照片，接續付訂流程。</li>
@@ -413,7 +413,7 @@
                     <img src="https://wholealphard.com/wp-content/uploads/2023/06/flow.png" />
                 </div>
             </div>
-            <h2>{{ fromLocation.name }}阿法租車常見問題</h2>
+            <h2>{{ fromLocation.name }}阿法包車常見問題</h2>
             <div class="content">
                 <div class="faq-container">
                     <div class="faq-item">
@@ -434,12 +434,12 @@
                     </div>
                     <div class="faq-item">
                         <h3 class="faq-question">5. 退訂政策</h3>
-                        <p class="faq-answer">1. 租車出發前72小時前取消用車，免費取消。<br> 2. 租車出發前48小時前取消用車，扣取50%訂金費用。<br> 3.
-                            租車出發前24小時前取消用車，訂金不退款。</p>
+                        <p class="faq-answer">1. 包車出發前72小時前取消用車，免費取消。<br> 2. 包車出發前48小時前取消用車，扣取50%訂金費用。<br> 3.
+                            包車出發前24小時前取消用車，訂金不退款。</p>
                     </div>
                     <div class="faq-item">
                         <h3 class="faq-question">6. 是否需要預付押金或簽訂本票?</h3>
-                        <p class="faq-answer">與本公司租車無須押金、無須簽本票。</p>
+                        <p class="faq-answer">與本公司包車無須押金、無須簽本票。</p>
                     </div>
                     <div class="faq-item">
                         <h3 class="faq-question">7. 全車輛禁菸並禁止寵物上車，如有違規相關罰款</h3>
@@ -453,8 +453,8 @@
 
 
             </div>
-            <h2>{{ fromLocation.name }}家庭/企業租車活動花絮</h2>
-            <h3><a href="https://wholealphard.com/portfolio/">看更多阿法租車成功案例</a></h3>
+            <h2>{{ fromLocation.name }}家庭/企業包車活動花絮</h2>
+            <h3><a href="https://wholealphard.com/portfolio/">看更多阿法包車成功案例</a></h3>
             <div class="content">
                 <div class="section portion3">
                     <div class="img-container"
@@ -488,26 +488,26 @@
                 </div>
             </div>
 
-            <h2>為什麼選擇 總發阿法租車 Whole Alphard</h2>
+            <h2>為什麼選擇 總發阿法包車 Whole Alphard</h2>
             <div class="content">
                 <div class="section portion3">
                     <i class="fa fa-rocket" aria-hidden="true"></i>
                     <h3>即時聯繫</h3>
-                    <p>從事前訂車起，無論您是需要阿法租車，或是尋求Alphard租車服務，我們的客服人員都能隨時為您提供專業的諮詢並把關。我們瞭解每一位客戶的需求都是獨一無二的，因此，我們始終全程為您提供個性化的服務，以確保您的用車體驗能夠無縫銜接，且能滿足您的各種需求。
+                    <p>從事前訂車起，無論您是需要阿法包車，或是尋求Alphard包車服務，我們的客服人員都能隨時為您提供專業的諮詢並把關。我們瞭解每一位客戶的需求都是獨一無二的，因此，我們始終全程為您提供個性化的服務，以確保您的用車體驗能夠無縫銜接，且能滿足您的各種需求。
                     </p>
                 </div>
 
                 <div class="section portion3">
                     <i class="fa fa-check-circle" aria-hidden="true"></i>
                     <h3>合法可靠</h3>
-                    <p>我們是政府立案的公司，完全符合政府的各種規定。我們不僅秉持著最高的安全和服務標準，更進一步對所有乘客進行全額投保，確保在您使用我們的阿法或Alphard租車服務時，能夠得到最完善的保障。我們的目標是提供安全可靠的服務，同時確保每位乘客都能擁有愉快的租車經驗。
+                    <p>我們是政府立案的公司，完全符合政府的各種規定。我們不僅秉持著最高的安全和服務標準，更進一步對所有乘客進行全額投保，確保在您使用我們的阿法或Alphard包車服務時，能夠得到最完善的保障。我們的目標是提供安全可靠的服務，同時確保每位乘客都能擁有愉快的包車經驗。
                     </p>
                 </div>
 
                 <div class="section portion3">
                     <i class="fa fa-id-badge" aria-hidden="true"></i>
                     <h3>專業駕駛</h3>
-                    <p>我們的駕駛員都是擁有職業執照的專業人員，且每位駕駛員都會定期接受嚴格的考核，以確保他們的專業技能始終保持在最高水準。此外，我們的團隊中也包括擁有國家級禮賓的豐富經驗的駕駛員。無論您選擇我們的阿法租車，或是Alphard租車，我們都確保您將得到最專業、最高水準的駕駛服務。
+                    <p>我們的駕駛員都是擁有職業執照的專業人員，且每位駕駛員都會定期接受嚴格的考核，以確保他們的專業技能始終保持在最高水準。此外，我們的團隊中也包括擁有國家級禮賓的豐富經驗的駕駛員。無論您選擇我們的阿法包車，或是Alphard包車，我們都確保您將得到最專業、最高水準的駕駛服務。
                     </p>
                 </div>
             </div>
