@@ -4,19 +4,18 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a rel="noopener noreferrer" href="https://www.taiwantourcar.com/">首頁</a></li>
-          <li class="breadcrumb-item active" aria-current="page">{{ fromLocation.name }} - {{ toLocation.name }}
-            到府專車接送|包車旅遊|商務租車</li>
+          <li class="breadcrumb-item active" aria-current="page">{{ fromLocation.name }} 到府專車接送|包車旅遊|商務租車</li>
         </ol>
       </nav>
       <div class="section_title text-center">
-        <h1>{{ fromLocation.name }} - {{ toLocation.name }} 到府專車接送|包車旅遊|商務租車</h1>
+        <h1>{{ fromLocation.name }} 到府專車接送|包車旅遊|商務租車</h1>
       </div>
       <div class="row">
         <div class="col-md">
           <div class="box_content noHover">
             <div class="box_title">
               <h2>【<a rel="noopener noreferrer" href="https://www.taiwantourcar.com/"><strong><em>台灣包車旅遊</em></strong></a>
-                {{ fromLocation.name }} 、 {{ toLocation.name }} 旅遊包車接送推薦！</h2>
+                {{ fromLocation.name }} 旅遊包車接送推薦！</h2>
             </div>
             <div class="text_padding">
               給您最安全的駕駛服務，多元接送服務，提供包車旅遊、機場接送、環島旅遊、商務接送…等服務，帶給您最方便、快速的旅遊方式，專業司機熟稔台灣各區交通路況，安全準時將您送達指定的目的地，費用透明化，絕不隨意亂喊價，車輛均有定期檢查，讓您安心搭乘無負擔。<br />
@@ -90,7 +89,7 @@
         </div>
       </div>
       <div class="service-section qa-content">
-        <h2>{{ fromLocation.name }} 、 {{ toLocation.name }} 包車接送常見問題</h2>
+        <h2>{{ fromLocation.name }} 包車接送常見問題</h2>
         <h5>Q1: 包車是否能到府接送？</h5>
         <p>可以。包車就是免去自駕的困擾，直接在家到府或者指定地點上下車接送。</p>
         <h5>Q2: 租車所附之駕駛，素質如何？</h5>
@@ -269,7 +268,7 @@
         </ul>
       </div>
       <div>
-        <h2>除了 {{ fromLocation.name }} 到 {{ toLocation.name }}，還有⋯</h2>
+        <h2>除了 {{ fromLocation.name }} ，還有⋯</h2>
         <ul>
           <li v-for="route in recommendedRoutes" :key="route.from + route.to">
             <a :href="route.path">{{ route.from }} → {{ route.to }}</a>
@@ -283,14 +282,14 @@
 <script>
 // pages/route/_from/_to.vue
 import locations from '@/locations.js';
-function createSchema(fromLocation, toLocation) {
+function createSchema(fromLocation) {
   return {
-    "@context": "http://schema.org/", "@type": "Product", "name": `${fromLocation.name} - ${toLocation.name} 到府專車接送`, "image": "https://www.ctplayer.com/wp-content/uploads/2019/11/alphard.png", "description": `無論是商務租車、包車旅遊，還是定期的醫療需求，${fromLocation.name} 到 ${toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為不熟悉${toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`, "brand": { "@type": "Brand", "name": "夢玩家包車旅遊", "logo": "https://www.taiwantourcar.com/wp-content/uploads/2020/01/logo.png" }, "offers": { "@type": "Offer", "priceCurrency": "TWD", "price": "4050", "priceValidUntil": "2022-06-16", "availability": "https://schema.org/InStock", "url": "https://www.tripool.app/包車接送/太魯閣/台北市" }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "6573", "reviewCount": "733", "worstRating": "1", "bestRating": "5" }, "review": [{ "@type": "Review", "name": "第一次包車旅行，很開心免費升等...", "author": { "@type": "Person", "name": "張小萍" }, "datePublished": "2021-07-20", "reviewBody": "第一次包車旅行，很開心免費升等，司機李先生很nice，開車很穩，也會介紹好吃好玩的景點，超級推薦", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "司機服務很好...", "author": { "@type": "Person", "name": "阮嫈娜" }, "datePublished": "2019-12-25", "reviewBody": "司機服務很好，車況也很好下次有機會還會再請你們服務喔", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "非常自由的客製化行程...", "author": { "@type": "Person", "name": "徐繹舜" }, "datePublished": "2019-09-23", "reviewBody": "非常自由的客製化行程，還會依照你的行程報價確認，此次還被免費升級車款，司機鍾大哥非常nice，幫開車門還會介紹好吃餐廳，有機會會在預約夢玩家包車。", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }]
+    "@context": "http://schema.org/", "@type": "Product", "name": `${fromLocation.name} 到府專車接送`, "image": "https://www.ctplayer.com/wp-content/uploads/2019/11/alphard.png", "description": `無論是商務租車、包車旅遊，還是定期的醫療需求，${fromLocation.name}出發僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為路況不熟找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`, "brand": { "@type": "Brand", "name": "夢玩家包車旅遊", "logo": "https://www.taiwantourcar.com/wp-content/uploads/2020/01/logo.png" }, "offers": { "@type": "Offer", "priceCurrency": "TWD", "price": "4050", "priceValidUntil": "2022-06-16", "availability": "https://schema.org/InStock", "url": "https://www.tripool.app/包車接送/太魯閣/台北市" }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "6573", "reviewCount": "733", "worstRating": "1", "bestRating": "5" }, "review": [{ "@type": "Review", "name": "第一次包車旅行，很開心免費升等...", "author": { "@type": "Person", "name": "張小萍" }, "datePublished": "2021-07-20", "reviewBody": "第一次包車旅行，很開心免費升等，司機李先生很nice，開車很穩，也會介紹好吃好玩的景點，超級推薦", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "司機服務很好...", "author": { "@type": "Person", "name": "阮嫈娜" }, "datePublished": "2019-12-25", "reviewBody": "司機服務很好，車況也很好下次有機會還會再請你們服務喔", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "非常自由的客製化行程...", "author": { "@type": "Person", "name": "徐繹舜" }, "datePublished": "2019-09-23", "reviewBody": "非常自由的客製化行程，還會依照你的行程報價確認，此次還被免費升級車款，司機鍾大哥非常nice，幫開車門還會介紹好吃餐廳，有機會會在預約夢玩家包車。", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }]
   };
 }
 export default {
   head() {
-    const pageTitle = `${this.fromLocation.name} - ${this.toLocation.name} 到府專車接送|包車旅遊|商務租車`;
+    const pageTitle = `${this.fromLocation.name} 到府專車接送|包車旅遊|商務租車`;
 
     return {
       title: pageTitle,
@@ -298,7 +297,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: `無論是商務租車、包車旅遊，還是定期的醫療需求，${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`
+          content: `無論是商務租車、包車旅遊，還是定期的醫療需求，${this.fromLocation.name}出發僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為路況不熟找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`
         },
         {
           hid: 'og:title',
@@ -308,20 +307,19 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: `無論是商務租車、包車旅遊，還是定期的醫療需求，${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`
+          content: `無論是商務租車、包車旅遊，還是定期的醫療需求，${this.fromLocation.name}出發僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的接送服務。讓您的寶貴時間不再因為路況不熟找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的包車接送。`
         },
       ],
       script: [
         {
           type: 'application/ld+json',
-          json: createSchema(this.fromLocation, this.toLocation)
+          json: createSchema(this.fromLocation)
         }
       ]
     };
   },
   async asyncData({ params, env }) {
     const fromLocation = locations.find((location) => location.name === params.from);
-    const toLocation = locations.find((location) => location.name === params.to);
 
     const relatedRoutes = locations
       .filter((location) => location.region === fromLocation.region && location.id !== fromLocation.id)
@@ -344,7 +342,7 @@ export default {
     });
 
 
-    return { fromLocation, toLocation, relatedRoutes, recommendedRoutes };
+    return { fromLocation, relatedRoutes, recommendedRoutes };
   },
 };
 

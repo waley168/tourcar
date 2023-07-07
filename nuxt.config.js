@@ -1,47 +1,18 @@
 import locations from './locations';
 
 const generateLocationPairs = () => {
-  const highWeightLocations = locations.filter(location => location.weight > 10);
-  const lowWeightLocations = locations.filter(location => location.weight > 10);
-  const targetLocations = locations.filter(location => location.id >= 31 && location.id <= 50);
+  const highWeightLocationsFrom = locations.filter(location => location.weight > 1);
 
-  const highWeightPairs = [];
-  highWeightLocations.forEach(fromLocation => {
-    highWeightLocations
-      .filter(toLocation => fromLocation.id !== toLocation.id)
-      .forEach(toLocation => {
-        highWeightPairs.push([fromLocation, toLocation]);
-      });
-  });
+  const highWeightPairs = highWeightLocationsFrom.map(fromLocation => [fromLocation]);
 
-  const randomPairs = [];
-  lowWeightLocations.forEach(fromLocation => {
-    const randomToLocations = lowWeightLocations
-      .filter(location => location.id !== fromLocation.id)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 10);
-
-    randomToLocations.forEach(toLocation => {
-      randomPairs.push([fromLocation, toLocation]);
-    });
-  });
-
-  const pairs = [];
-  locations.forEach(fromLocation => {
-    targetLocations
-      .filter(toLocation => fromLocation.id !== toLocation.id)
-      .forEach(toLocation => {
-        pairs.push([fromLocation, toLocation]);
-      });
-  });
-
-  return [...highWeightPairs, ...randomPairs, ...pairs];
+  return [...highWeightPairs];
 };
+
 
 const locationPairs = generateLocationPairs();
 
 const generateRoutes = () => {
-  return locationPairs.map(([fromLocation, toLocation]) => `/route/${fromLocation.name}/${toLocation.name}`);
+  return locationPairs.map(([fromLocation]) => `/route/${fromLocation.name}`);
 };
 
 // 在 extendRoutes 中使用 locationPairs
@@ -49,9 +20,9 @@ const generateRoutes = () => {
 export default {
   router: {
     extendRoutes(routes, resolve) {
-      const newRoutes = locationPairs.map(([fromLocation, toLocation]) => ({
-        name: `${fromLocation.name}-to-${toLocation.name}`,
-        path: `/${fromLocation.name}/${toLocation.name}`,
+      const newRoutes = locationPairs.map(([fromLocation]) => ({
+        name: `${fromLocation.name}`,
+        path: `/${fromLocation.name}`,
         component: resolve(__dirname, 'pages/_from/_to.vue'),
       }));
       routes.push(...newRoutes);
