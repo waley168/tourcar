@@ -85,7 +85,7 @@
         </ul>
       </div>
       <div>
-        <h2>除了 {{ fromLocation.name }} 到 ，還有⋯</h2>
+        <h2>除了 {{ fromLocation.name }}，還有⋯</h2>
         <ul>
           <li v-for="route in recommendedRoutes" :key="route.from + route.to">
             <a :href="route.path">{{ route.from }}</a>

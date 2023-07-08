@@ -37,38 +37,10 @@
                                 </path>
                             </svg></span></a>
                 </div>
-                <div class="menu-toggle" @click="toggleMenu">&#9776;</div>
+                <div class="menu-toggle">&#9776;</div>
 
             </div>
         </header>
-
-        <div class="menu mobile" v-if="isMenuOpen">
-            <nav>
-                <ul>
-                    <li><a href="https://wholealphard.com/">首頁</a></li>
-                    <li><a href="https://wholealphard.com/about/">關於總發</a></li>
-                    <li><a href="https://wholealphard.com/alphard/">ALPHARD租車</a></li>
-                    <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                    <li><a href="https://wholealphard.com/contact/">聯絡我們</a></li>
-                    <li><a href="https://wholealphard.com/portfolio/">花絮集錦</a></li>
-                </ul>
-            </nav>
-        </div>
         <div class="header-space"></div>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            isMenuOpen: false,
-        }
-    },
-    methods: {
-        toggleMenu() {
-            this.isMenuOpen = !this.isMenuOpen;
-        },
-    },
-}
-</script>

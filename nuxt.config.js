@@ -76,7 +76,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: 'https://wholealphard.com/wp-content/uploads/2023/06/whole_alphard_logo.png' },
       { rel: 'stylesheet', href: 'https://wholealphard.com/assets/main.css' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css' },
-  
+      { rel: 'stylesheet', href: 'https://wholealphard.com/assets/main.css' },
     ]
   },
 
@@ -111,6 +111,6 @@ export default {
     publicPath: 'https://wholealphard.com/route/_nuxt/',
   },
   render: {
-    injectScripts: true,
+    injectScripts: false,
   }
 }

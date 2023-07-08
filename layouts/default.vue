@@ -519,10 +519,10 @@
 
 <script>
 export default {
-  computed: {
-    fromLocation() {
-      return this.$store.state.fromLocation;
+    computed: {
+        fromLocation() {
+            return this.$store.state.fromLocation;
+        },
     },
-  },
 };
 </script>
