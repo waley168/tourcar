@@ -42,6 +42,10 @@ export default {
     ],
     script: [
       {
+        src: 'https://wholealphard.com/assets/main.js',
+        async: true,
+      },
+      {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-Z691T4Q3Q7',
         async: true,
       },
@@ -111,6 +115,6 @@ export default {
     publicPath: 'https://wholealphard.com/route/_nuxt/',
   },
   render: {
-    injectScripts: true,
+    injectScripts: false,
   }
 }
