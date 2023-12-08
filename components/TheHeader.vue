@@ -3,31 +3,26 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img class="logo-img" src="https://wholealphard.com/wp-content/uploads/2023/06/whole_alphard_logo.png"
+                    <img class="logo-img" src="https://www.taiwantourcar.com/wp-content/uploads/2023/12/logo-round.png"
                         alt="logo">
-                    <a href="https://wholealphard.com/" rel="home" itemprop="url" class="site-title">總發豪華汽車出租</a>
+                    <a href="https://www.taiwantourcar.com/" rel="home" itemprop="url" class="site-title">夢玩家包車/接送</a>
                 </div>
 
                 <div class="menu desktop">
                     <nav>
                         <ul>
-                            <li><a href="https://wholealphard.com/">首頁</a></li>
-                            <li><a href="https://wholealphard.com/about/">關於總發</a></li>
-                            <li class="dropdown">
-                                <a href="https://wholealphard.com/alphard/">ALPHARD租車</a>
-                                <div class="dropdown-content">
-                                    <a href="https://wholealphard.com/alphard-rental/">租車詳細流程</a>
-                                    <a href="https://wholealphard.com/alphard-qa/">承租注意事項</a>
-                                </div>
-                            </li>
-                            <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                            <li><a href="https://wholealphard.com/contact/">聯絡我們</a></li>
-                            <li><a href="https://wholealphard.com/portfolio/">花絮集錦</a></li>
+                            <li><a href="https://www.taiwantourcar.com/">首頁</a></li>
+                            <li><a href="https://www.taiwantourcar.com/about-us/">關於我們</a></li>
+                            <li><a href="https://www.taiwantourcar.com/itinerary/">行程推薦</a></li>
+                            <li><a href="https://www.taiwantourcar.com/travel/">包車旅遊(價目表)</a></li>
+                            <li><a href="https://www.taiwantourcar.com/multilingual/">外語司機</a></li>
+                            <li><a href="https://www.taiwantourcar.com/attractions/">景點介紹</a></li>
+                            <li><a href="https://www.taiwantourcar.com/airport/">港口機場接送</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="social-icons">
-                    <a href="https://line.me/R/ti/p/@662hnbde" aria-label="Line" target="_blank" rel="noopener noreferrer"
+                    <a href="https://page.line.me/?accountId=yyy888" aria-label="Line" target="_blank" rel="noopener noreferrer"
                         style="--color: #1B64F6; --background-color: transparent;"
                         class="ast-builder-social-element ast-inline-flex ast-behance header-social-item"><span
                             class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg xmlns="http://www.w3.org/2000/svg"
@@ -45,12 +40,13 @@
         <div class="menu mobile" v-if="isMenuOpen">
             <nav>
                 <ul>
-                    <li><a href="https://wholealphard.com/">首頁</a></li>
-                    <li><a href="https://wholealphard.com/about/">關於總發</a></li>
-                    <li><a href="https://wholealphard.com/alphard/">ALPHARD租車</a></li>
-                    <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                    <li><a href="https://wholealphard.com/contact/">聯絡我們</a></li>
-                    <li><a href="https://wholealphard.com/portfolio/">花絮集錦</a></li>
+                    <li><a href="https://www.taiwantourcar.com/">首頁</a></li>
+                    <li><a href="https://www.taiwantourcar.com/about-us/">關於我們</a></li>
+                    <li><a href="https://www.taiwantourcar.com/itinerary/">行程推薦</a></li>
+                    <li><a href="https://www.taiwantourcar.com/travel/">包車旅遊(價目表)</a></li>
+                    <li><a href="https://www.taiwantourcar.com/multilingual/">外語司機</a></li>
+                    <li><a href="https://www.taiwantourcar.com/attractions/">景點介紹</a></li>
+                    <li><a href="https://www.taiwantourcar.com/airport/">港口機場接送</a></li>
                 </ul>
             </nav>
         </div>

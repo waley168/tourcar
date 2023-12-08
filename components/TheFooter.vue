@@ -53,31 +53,19 @@
 
                 </div>
                 <div class="section portion225">
-                    <p class="contact-title">總發專營</p>
-                    總發租車, 總發包車, 商務租車, 長期租賃, 商務接送, VIP接送, 市區接送, 租車推薦, 台中ALPHARD租車, 活動接送, 貴賓接送, 高爾夫球租車, 高爾夫球接送, 自由行租車, 自助租車,
-                    品牌活動用車, 租保母車, ALPHARD租車, LM租車, 阿法租車, 阿爾法租車, 附駕租車, 婚禮禮車, 租車ptt推薦, 藝人接送用車, 埃爾法租車, 拍戲租車, 劇組用車, 旅行租車, 通勤租車,
-                    租無菸車, 禮賓租車, 禮賓接送
-                </div>
-            </div>
-            <div class="content">
-                <div class="section portion3 margin0">
-                    <p class="contact-title">㊓ 高雄總店：左營區文府路286號</p>
-                </div>
-                <div class="section portion3 margin0">
-                    <p class="contact-title">㊓ 鳳山分店：鳳山區鳳頂路437號</p>
-                </div>
-                <div class="section portion3 margin0">
-                    <p class="contact-title">㊓ 屏東旗艦店：自由路94號</p>
+                    <p class="contact-title">夢玩家專營</p>
+                    阿法高鐵接送, LM一日遊, 阿法包車旅遊, 福斯保母車大型活動, 賓士九人座企業活動租車, LM多日遊, STARIA接送, Alphard機場接送, 賓士保母車商務租車, 阿法隱私醫美旅行,
+                    STARIA環島旅遊, 大T機場接送, 福斯保母車隱私醫美旅行, 阿法一日遊, LM接送, 大T多日遊, 賓士九人座多日遊, STARIA包車旅遊, 大T高鐵接送, 阿法多日遊
                 </div>
             </div>
             <div class="address">
                 <div class="section">
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+886907701070" data-type="tel" data-id="tel:+886907701070">0907-701-070</a><br /><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:threeshotscar@gmail.com" data-type="mailto" data-id="mailto:threeshotscar@gmail.com"> threeshotscar@gmail.com</a><br />租車請提前透過<a href="https://line.me/R/ti/p/@662hnbde" data-type="URL" data-id="https://line.me/R/ti/p/@662hnbde" target="_blank" rel="noreferrer noopener">網路Line預訂</a>或來電詢問哦！</p>
+                    <p>玩遍天下旅行社<br />統一編號 90028471<br />交觀甲字第06826號<br />品保協會會員北2622號<br />代表人 潘吳珅</p>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> {{ currentYear }} 總發租車 Whole Alphard
+            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> {{ currentYear }} 夢玩家包車旅遊 taiwan tour car
         </div>
     </footer>
 </template>
