@@ -87,7 +87,7 @@
         <h2>更多和 {{ fromLocation.name }} 包車相關的包車服務</h2>
         <ul>
           <li v-for="route in relatedRoutes" :key="route.from + route.to">
-            <a :href="route.from">{{ route.from }}</a>
+            <a :href="route.path">{{ route.from }}</a>
           </li>
         </ul>
       </div>
@@ -95,7 +95,7 @@
         <h2>除了 {{ fromLocation.name }} 包車，還有⋯</h2>
         <ul>
           <li v-for="route in recommendedRoutes" :key="route.from + route.to">
-            <a :href="route.from">{{ route.from }}</a>
+            <a :href="route.path">{{ route.from }}</a>
           </li>
         </ul>
       </div>
@@ -155,7 +155,7 @@ export default {
         do {
           randomDestination = locations[Math.floor(Math.random() * locations.length)];
         } while (location.id === randomDestination.id);
-        return { from: location.name, to: randomDestination.name, path: encodeURI(env.basePath + location.name + '/' + randomDestination.name) };
+        return { from: location.name, to: randomDestination.name, path: encodeURI(env.basePath + location.name) };
       });
 
     const recommendedRoutes = Array.from({ length: 10 }, () => {
@@ -164,7 +164,7 @@ export default {
         randomFrom = locations[Math.floor(Math.random() * locations.length)];
         randomTo = locations[Math.floor(Math.random() * locations.length)];
       } while (randomFrom.id === randomTo.id);
-      return { from: randomFrom.name, to: randomTo.name, path: encodeURI(env.basePath + randomFrom.name + '/' + randomTo.name) };
+      return { from: randomFrom.name, to: randomTo.name, path: encodeURI(env.basePath + randomFrom.name) };
     });
 
 
