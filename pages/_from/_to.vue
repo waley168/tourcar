@@ -84,7 +84,7 @@
     </div>
     <div class="content">
       <div>
-        <h2>更多和 {{ fromLocation.name }} 包車相關的包車服務</h2>
+        <h2>更多和{{ fromLocation.name }}包車相關的包車服務</h2>
         <ul>
           <li v-for="route in relatedRoutes" :key="route.from + route.to">
             <a :href="route.path">{{ route.from }}</a>
@@ -92,7 +92,7 @@
         </ul>
       </div>
       <div>
-        <h2>除了 {{ fromLocation.name }} 包車，還有⋯</h2>
+        <h2>除了{{ fromLocation.name }}包車，還有⋯</h2>
         <ul>
           <li v-for="route in recommendedRoutes" :key="route.from + route.to">
             <a :href="route.path">{{ route.from }}</a>
