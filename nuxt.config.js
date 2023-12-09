@@ -12,7 +12,7 @@ const generateLocationPairs = () => {
 const locationPairs = generateLocationPairs();
 
 const generateRoutes = () => {
-  return locationPairs.map(([fromLocation]) => `/route/${fromLocation.name}`);
+  return locationPairs.map(([fromLocation]) => `/service/${fromLocation.name}`);
 };
 
 // 在 extendRoutes 中使用 locationPairs
@@ -30,7 +30,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'wholealphard',
+    title: 'taiwantourcar',
     htmlAttrs: {
       lang: 'zh-TW'
     },
@@ -42,7 +42,7 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-Z691T4Q3Q7',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-PFG5ZFP6K3',
         async: true,
       },
       // Google Analytics
@@ -52,7 +52,7 @@ export default {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-Z691T4Q3Q7');
+          gtag('config', 'G-PFG5ZFP6K3');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
@@ -65,7 +65,7 @@ export default {
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-5HHQ359');
+          })(window,document,'script','dataLayer','GTM-KKS367C');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
