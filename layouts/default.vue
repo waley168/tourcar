@@ -80,7 +80,6 @@
                                 <th>7人座</th>
                                 <th>9人座</th>
                                 <th>11人座</th>
-                                <th>多人團體</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -90,7 +89,6 @@
                                 <td><ul><li>WISH</li><li>SIENTA</li><li>CADDY</li></ul></td>
                                 <td><ul><li>福斯T5/T6</li><li>現代/福特</li><li>賓士VITO</li></ul></td>
                                 <td><ul><li>賓士明星保姆車</li><li>福斯保姆車</li></ul></td>
-                                <td rowspan="5"><ul><li>原裝中巴21座</li><li>小可愛21~24座</li></ul><br />※各式遊覽車數量相當齊全，全台各地皆可發車，歡迎洽詢<br /><br />※另依行程及使用時間報價</td>
                             </tr>
                             <tr>
                                 <td>4小時</td><td>2800</td><td>3000</td><td>3400</td><td>6200</td>
