@@ -84,18 +84,18 @@
     </div>
     <div class="content">
       <div>
-        <h2>更多從 {{ fromLocation.name }} 附近出發的路線</h2>
+        <h2>更多和 {{ fromLocation.name }} 包車相關的包車服務</h2>
         <ul>
           <li v-for="route in relatedRoutes" :key="route.from + route.to">
-            <a :href="route.path">{{ route.from }} → {{ route.to }}</a>
+            <a :href="route.from">{{ route.from }}</a>
           </li>
         </ul>
       </div>
       <div>
-        <h2>除了 {{ fromLocation.name }} 到 ，還有⋯</h2>
+        <h2>除了 {{ fromLocation.name }} 包車，還有⋯</h2>
         <ul>
           <li v-for="route in recommendedRoutes" :key="route.from + route.to">
-            <a :href="route.path">{{ route.from }} → {{ route.to }}</a>
+            <a :href="route.from">{{ route.from }}</a>
           </li>
         </ul>
       </div>
