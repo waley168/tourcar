@@ -18,6 +18,7 @@ const generateRoutes = () => {
 // 在 extendRoutes 中使用 locationPairs
 
 export default {
+  target: 'static',
   router: {
     extendRoutes(routes, resolve) {
       const newRoutes = locationPairs.map(([fromLocation]) => ({
