@@ -1,74 +1,81 @@
 <template>
   <div>
-    <h1>{{ fromLocation.name }}阿法租車|商務租車|家庭旅遊|到府牽車</h1>
+    <h1>{{ fromLocation.name }}包車旅遊|包車一日遊、多日遊|到府專車接送|租車附駕駛</h1>
     <div class="content">
       <div class="section portion45">
 
-        <h2>【<a rel="noopener noreferrer" href="https://wholealphard.com/">{{ fromLocation.name }}<strong><em>阿法租車</em></strong></a>】Alphard包車推薦！</h2>
+        <h2>【<a rel="noopener noreferrer" href="https://wholealphard.com/">{{ fromLocation.name }}<strong><em>旅遊</em></strong></a>】包車推薦！</h2>
         <div class="text_box">
-          <p>總發給您最尊榮不凡的租車體驗，享受最高檔的旅程就選阿法租車吧！總發阿法租車提供您最高檔新穎Alphard車款，適合用於: 機場接送、商務接送、家庭租車出遊、租alphard一日遊、多日遊、環島旅遊、隱私醫美旅行、企業活動租車…等服務，帶給您最大器體面的移動方式。</p><p>除此之外，我們還提供包車服務(租車附駕駛)、多元接送服務，專業司機熟悉{{ fromLocation.name }}交通路況，給您最穩重可靠的駕駛服務，安全準時將您送達指定的目的地。</p><p>皆依政府規定車輛均有定期檢查，並投保高額乘客保險。契約費用透明化，絕不隨意亂喊價或是添加額外費用，讓您安心搭乘無負擔。</p>
-          阿法租車：
+          <p>夢玩家給您最尊榮不凡的包車體驗，享受最高檔的旅程就選夢玩家租車附駕駛吧吧！提供您最高檔新穎車款，適合用於: 機場接送、商務接送、家庭包車出遊、包車一日遊、多日遊、環島旅遊、隱私醫美旅行、企業活動租車…等服務，帶給您最大器體面的移動方式。</p><p>除此之外，我們還提供包車接送服務(租車附駕駛)、多元接送服務，專業司機熟悉{{ fromLocation.name }}交通路況，給您最穩重可靠的駕駛服務，安全準時將您送達指定的目的地。</p><p>皆依政府規定車輛均有定期檢查，並投保高額乘客保險。契約費用透明化，絕不隨意亂喊價或是添加額外費用，讓您安心搭乘無負擔。</p>
+          五人座包車旅遊：
           <h3><a rel="noopener noreferrer"
-              href="https://wholealphard.com/alphard/"><strong><em>{{ fromLocation.name }}租車自由行</em></strong></a>
+              href="https://www.taiwantourcar.com/"><strong><em>{{ fromLocation.name }}包車自由行</em></strong></a>
           </h3>
           、<a rel="noopener noreferrer"
-            href="https://wholealphard.com/alphard-chartered/"><strong>Alphard商務租車</strong></a><br />
-          阿法包車：
+            href="https://www.taiwantourcar.com/airport/"><strong>機場接送</strong></a><br />
+          九人座包車旅遊：
           <h3><a rel="noopener noreferrer"
-              href="https://wholealphard.com/portfolio/"><strong><em>包車</em></strong></a>
+              href="https://www.taiwantourcar.com/itinerary/"><strong><em>包車行程推薦</em></strong></a>
           </h3>
           、<a rel="noopener noreferrer"
-            href="https://wholealphard.com/"><strong>雲嘉南包車</strong></a>、<strong>花蓮-墾丁/墾丁-花蓮專線</strong><br />
+            href="https://www.taiwantourcar.com/%e5%8f%b0%e7%81%a3%e7%92%b0%e5%b3%b6%e5%8c%85%e8%bb%8a%e5%90%ab%e5%8f%b8%e6%a9%9f-%e7%b6%93%e5%85%b8%e7%92%b0%e5%b3%b6%e9%81%8a/"><strong>環島包車</strong></a>、<a rel="noopener noreferrer"
+            href="https://www.taiwantourcar.com/%e8%8a%b1%e8%93%ae%e5%8c%85%e8%bb%8a-%e5%8f%b0%e5%8c%97%e5%8c%85%e8%bb%8a%e5%8e%bb%e8%8a%b1%e8%93%ae-%e5%88%b0%e5%ba%9c%e5%b0%88%e8%bb%8a%e6%8e%a5%e9%80%81/"><strong>花蓮-台北/台北-花蓮專線</strong></a><br />
           接機、送機首選：
-          <h3><a rel="noopener noreferrer" href="https://wholealphard.com/faq/"><strong>小港機場接送</strong></a>
+          <h3><a rel="noopener noreferrer" href="https://www.taiwantourcar.com/airport/"><strong>小港機場接送</strong></a>
           </h3>
-          、<a rel="noopener noreferrer" href="https://wholealphard.com/"><strong>企業長期接送</strong></a>、<a
-            rel="noopener noreferrer" href="https://wholealphard.com/"><strong>商務包車</strong></a>
+          、<a rel="noopener noreferrer" href="https://www.taiwantourcar.com/travel/"><strong>企業長期接送</strong></a>、<a
+            rel="noopener noreferrer" href="https://www.taiwantourcar.com/multilingual/"><strong>外語包車</strong></a>
         </div>
         <div class="buttons_container">
-          <a href="https://wholealphard.com/">
+          <a href="https://www.taiwantourcar.com/travel/">
             <div class="refined-button">車款價格</div>
           </a>
-          <a href="https://wholealphard.com/">
-            <div class="refined-button">租車/包車服務</div>
+          <a href="https://www.taiwantourcar.com/airport/">
+            <div class="refined-button">接送/租車附司機服務</div>
           </a>
-          <a href="https://line.me/R/ti/p/@662hnbde" target="_blank" rel="noopener noreferrer">
+          <a href="https://page.line.me/?accountId=yyy888" target="_blank" rel="noopener noreferrer">
             <div class="refined-button">立即預約</div>
           </a>
         </div>
-        <h2>阿法租車<a href="https://wholealphard.com/">車款介紹</a></h2>
+        <h2>{{ fromLocation.name }}包車<a href="https://www.taiwantourcar.com/travel/">車款介紹</a></h2>
         <div class="text_box">
           <ul>
             <li>
-              <h3>7人座阿法租車</h3>
+              <h3>5人座各式車款包車</h3>
             </li>
             <li>
               <h3>七人座Alphard包車旅遊</h3>
             </li>
             <li>
-              <h3>LM 300h包車</h3>
+              <h3>7人座LM300h租車附駕駛</h3>
             </li>
             <li>
-              <h3>7人座lm租車</h3>
+              <h3>賓士九人座包車</h3>
+            </li>
+            <li>
+              <h3>福斯9人座包車</h3>
+            </li>
+            <li>
+              <h3>新現代STARIA 9人座包車</h3>
             </li>
           </ul>
         </div>
-        <div class="img-container" style="background-image:url(https://wholealphard.com/wp-content/uploads/2023/06/left.png)"></div><div class="img-container" style="background-image:url(https://wholealphard.com/wp-content/uploads/2023/06/right.png)"></div>
+        <div class="img-container" style="background-image:url(https://www.taiwantourcar.com/assets/polo006.jpg)"></div>
       </div>
       <div class="section portion45">
         <div class="jumbotron">
-          <h2>總發阿法租車|阿法包車|牽車到府</h2>
+          <h2>夢玩家包車旅遊|到府專車接送|租車附駕駛</h2>
           <hr>
-          探索城市的奇蹟，享受旅程的樂趣，一切盡在我們高檔新穎的阿法（Alphard）汽車中。每一輛阿法都代表著我們對品質、舒適度以及創新技術的無止境追求。阿法（Alphard）不僅擁有優雅的外觀設計，而且內飾精緻，舒適度極高。寬敞的座椅，豪華的內飾，最新的娛樂系統，無論是短途還是長途旅行，阿法都能提供最佳的駕駛體驗。
+          探索城市的奇蹟，享受旅程的樂趣，一切盡在我們高檔新穎的汽車中。每一輛服務車款都代表著我們對品質、舒適度以及創新技術的無止境追求。不僅外觀乾淨整潔，而且內裝舒適。寬敞的座椅，豪華的內飾，最新的娛樂系統，無論是短途還是長途旅行，夢玩家都能提供最佳的駕駛體驗。
           <h3>訂製的行程安排</h3>
           任何的標準化行程，未必適合每位層峰客戶。在聽取您的需求後，我們會為您量身定制出最滿意的服務規劃。
-          <h3>尊爵不凡的阿法（Alphard）</h3>
-          我們了解，租賃一輛豪華汽車的目的不僅僅是從A點到B點，更是關於享受旅程的過程。阿法（Alphard）正是為此而設計。強大的發動機，流暢的操控性能，加上頂級的安全特性，不僅能讓您安全地到達目的地，而且還能享受到駕駛的樂趣。
-          <h3>最優惠的阿法租車價格</h3>
-          相較於其他租車服務平台，多數需要複雜手續費和抽佣，我們的團隊則由車主直接報價，繞過所有中間環節，為旅客提供最優惠的阿法租車價格，價格保證市場最划算，我們也承諾不會嵌入任何未告知的隱藏收費。
+          <h3>最親切的服務態度</h3>
+          親切、專業、熱情是本團隊最高指導原則，唯有如此，才能讓遊客願意放心，把難得的出遊機會交給我們。
+          <h3>最優惠的包車價格</h3>
+          相較於其他租車服務平台，多數需要複雜手續費和抽佣，我們的團隊則由車主直接報價，繞過所有中間環節，為旅客提供最優惠的包車價格，價格保證市場最划算，我們也承諾不會嵌入任何未告知的隱藏收費。
           <h3>立即暢通的客訴管道</h3>
           為免遊客於旅途中，與司機溝通不順，或司機行為失當等等情事，可隨時用官方通訊軟體，總部會立即更換車輛，並視情況補償損失，絕不讓我方駕駛之失誤，影響遊客興致，務必讓此趟行程，載滿美好回憶而歸。
-          <h3>專業司機(包車限定)</h3>
+          <h3>專業包車司機</h3>
           注重客戶感受，定期進行內部教育訓練，提升我們的阿法租車服務品質！多年來導覽經驗，有什麼好吃好玩的務必讓您知道，成為您在當地最佳旅遊夥伴。
           <h3>不斷創新的精神</h3>
           為了避免旅客在旅途中不順利，發生任何狀況，您可隨時通過官方通訊APP聯繫我們，我們會立即更換車輛，並視情況賠償損失，決不讓我們的失誤影響您的旅行興致，務必讓此趟行程充滿美好回憶。

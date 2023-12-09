@@ -4,45 +4,43 @@
             <h2>聯絡我們</h2>
             <div class="content">
                 <div class="section portion3">
-                    <a href="https://line.me/R/ti/p/@662hnbde" target="_blank" rel=" noreferrer noopener">
-                        <img src="https://wholealphard.com/wp-content/uploads/2023/06/L_gainfriends_2dbarcodes_GW.png" />
+                    <a href="https://page.line.me/?accountId=yyy888" target="_blank" rel=" noreferrer noopener">
+                        <img src="https://www.taiwantourcar.com/wp-content/uploads/2022/10/M_gainfriends_qr.png" />
                         <p class="contact-title">Line</p>
-                        @662hnbde
+                        @yyy888
                     </a>
                 </div>
                 <div class="section portion3">
-                    <a href="https://wa.me/886907701070" target="_blank" rel=" noreferrer noopener">
-                        <img src="https://wholealphard.com/wp-content/uploads/2023/06/waQRCODE.png" />
+                    <a href="https://wa.me/886975552776" target="_blank" rel=" noreferrer noopener">
+                        <img src="https://www.taiwantourcar.com/wp-content/uploads/2023/03/%E5%A4%A2WA.jpg" />
                         <p class="contact-title">WhatsApp</p>
-                        +886907701070
+                        +886975552776
                     </a>
 
                 </div>
                 <div class="section portion3">
-                    <img src="https://wholealphard.com/wp-content/uploads/2023/06/wc.png" />
+                    <img src="https://www.taiwantourcar.com/wp-content/uploads/2019/03/1553012702319.jpg" />
                     <p class="contact-title">WeChat</p>
-                    cgqxx708
+                    a0968738810
                 </div>
             </div>
             <div class="content">
                 <div class="section portion225">
-                    <p class="contact-title">Whole Alphard</p>
+                    <p class="contact-title">夢玩家包車旅遊</p>
                     <ul>
-                        <li><a href="https://wholealphard.com/">總發專業阿法租車</a></li>
-                        <li><a href="https://wholealphard.com/alphard-chartered/">總發阿法包車</a></li>
-                        <li><a href="https://wholealphard.com/alphard/">專營ALPHARD租賃</a></li>
-                        <li><a href="https://wholealphard.com/alphard-rental/">租車自駕</a></li>
-                        <li><a href="https://wholealphard.com/alphard-chartered/">包車附駕駛</a></li>
+                        <li><a href="https://www.taiwantourcar.com/">夢玩家包車旅遊</a></li>
+                        <li><a href="https://www.taiwantourcar.com/travel/">包車價格表</a></li>
+                        <li><a href="https://www.taiwantourcar.com/airport/">機場接送價格表</a></li>
+                        <li><a href="https://www.taiwantourcar.com/multilingual/">專業外語司機</a></li>
+                        <li><a href="https://www.taiwantourcar.com/itinerary/">包車行程推薦</a></li>
                     </ul>
                 </div>
                 <div class="section portion225">
-                    <p class="contact-title">租車相關政策</p>
+                    <p class="contact-title">包車相關政策</p>
                     <ul>
-                        <li><a href="https://wholealphard.com/alphard-rental/">租車流程</a></li>
-                        <li><a href="https://wholealphard.com/alphard#refund">退款政策</a></li>
-                        <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                        <li><a href="https://wholealphard.com/alphard-qa#contract">租賃定型化契約範本</a></li>
-                        <li><a href="#">隱私權保護</a></li>
+                        <li><a href="https://www.taiwantourcar.com/refund/">退款方式及流程</a></li>
+                        <li><a href="https://www.taiwantourcar.com/privacy/">隱私權保護政策</a></li>
+                        <li><a href="https://www.taiwantourcar.com/consumer-sovereignty/">消費者權益聲明暨會員服務條款</a></li>
                     </ul>
                 </div>
                 <div class="section portion225">
