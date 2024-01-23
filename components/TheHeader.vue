@@ -3,31 +3,25 @@
         <header>
             <div class="container">
                 <div class="logo">
-                    <img class="logo-img" src="https://wholealphard.com/wp-content/uploads/2023/06/whole_alphard_logo.png"
+                    <img class="logo-img" src="https://wanma.tw/wp-content/uploads/2023/08/wanma.svg"
                         alt="logo">
-                    <a href="https://wholealphard.com/" rel="home" itemprop="url" class="site-title">總發豪華汽車出租</a>
+                    <a href="https://wanma.tw/" rel="home" itemprop="url" class="site-title">萬馬接送</a>
                 </div>
 
                 <div class="menu desktop">
                     <nav>
                         <ul>
-                            <li><a href="https://wholealphard.com/">首頁</a></li>
-                            <li><a href="https://wholealphard.com/about/">關於總發</a></li>
-                            <li class="dropdown">
-                                <a href="https://wholealphard.com/alphard/">ALPHARD租車</a>
-                                <div class="dropdown-content">
-                                    <a href="https://wholealphard.com/alphard-rental/">租車詳細流程</a>
-                                    <a href="https://wholealphard.com/alphard-qa/">承租注意事項</a>
-                                </div>
-                            </li>
-                            <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                            <li><a href="https://wholealphard.com/contact/">聯絡我們</a></li>
-                            <li><a href="https://wholealphard.com/portfolio/">花絮集錦</a></li>
+                            <li><a href="https://wanma.tw/">首頁</a></li>
+                            <li><a href="https://wanma.tw/express/">新增訂單</a></li>
+                            <li><a href="https://wanma.tw/my-account/orders/">管理訂單</a></li>
+                            <li><a href="https://wanma.tw/cart/">購物車</a></li>
+                            <li><a href="https://wanma.tw/guidelines/">預訂流程</a></li>
+                            <li><a href="https://wanma.tw/faq/">常見問題</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="social-icons">
-                    <a href="https://line.me/R/ti/p/@662hnbde" aria-label="Line" target="_blank" rel="noopener noreferrer"
+                    <a href="https://line.me/R/ti/p/@165hwivs" aria-label="Line" target="_blank" rel="noopener noreferrer"
                         style="--color: #1B64F6; --background-color: transparent;"
                         class="ast-builder-social-element ast-inline-flex ast-behance header-social-item"><span
                             class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg xmlns="http://www.w3.org/2000/svg"
@@ -37,38 +31,23 @@
                                 </path>
                             </svg></span></a>
                 </div>
-                <div class="menu-toggle" @click="toggleMenu">&#9776;</div>
+                <div class="menu-toggle">&#9776;</div>
 
             </div>
         </header>
 
-        <div class="menu mobile" v-if="isMenuOpen">
+        <div class="menu desktop">
             <nav>
                 <ul>
-                    <li><a href="https://wholealphard.com/">首頁</a></li>
-                    <li><a href="https://wholealphard.com/about/">關於總發</a></li>
-                    <li><a href="https://wholealphard.com/alphard/">ALPHARD租車</a></li>
-                    <li><a href="https://wholealphard.com/faq/">常見問題</a></li>
-                    <li><a href="https://wholealphard.com/contact/">聯絡我們</a></li>
-                    <li><a href="https://wholealphard.com/portfolio/">花絮集錦</a></li>
+                    <li><a href="https://wanma.tw/">首頁</a></li>
+                    <li><a href="https://wanma.tw/express/">新增訂單</a></li>
+                    <li><a href="https://wanma.tw/my-account/orders/">管理訂單</a></li>
+                    <li><a href="https://wanma.tw/cart/">購物車</a></li>
+                    <li><a href="https://wanma.tw/guidelines/">預訂流程</a></li>
+                    <li><a href="https://wanma.tw/faq/">常見問題</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header-space"></div>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            isMenuOpen: false,
-        }
-    },
-    methods: {
-        toggleMenu() {
-            this.isMenuOpen = !this.isMenuOpen;
-        },
-    },
-}
-</script>

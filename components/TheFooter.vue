@@ -77,17 +77,7 @@
             </div>
         </div>
         <div class="copyright">
-            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> {{ currentYear }} 總發租車 Whole Alphard
+            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> <span id="year"></span> 總發租車 Whole Alphard
         </div>
     </footer>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            currentYear: new Date().getFullYear()
-        }
-    }
-}
-</script>
