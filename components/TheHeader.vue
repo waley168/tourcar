@@ -35,19 +35,6 @@
 
             </div>
         </header>
-
-        <div class="menu desktop">
-            <nav>
-                <ul>
-                    <li><a href="https://wanma.tw/">首頁</a></li>
-                    <li><a href="https://wanma.tw/express/">新增訂單</a></li>
-                    <li><a href="https://wanma.tw/my-account/orders/">管理訂單</a></li>
-                    <li><a href="https://wanma.tw/cart/">購物車</a></li>
-                    <li><a href="https://wanma.tw/guidelines/">預訂流程</a></li>
-                    <li><a href="https://wanma.tw/faq/">常見問題</a></li>
-                </ul>
-            </nav>
-        </div>
         <div class="header-space"></div>
     </div>
 </template>

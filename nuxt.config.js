@@ -36,7 +36,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'wanma',
+    title: '全台各市區接送 | 機場接送 | 跨縣市包車服務 | 旅遊接駁 - 萬馬接送',
     htmlAttrs: {
       lang: 'zh-TW'
     },
@@ -48,7 +48,12 @@ export default {
     ],
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-Z691T4Q3Q7',
+        src: 'https://wanma.tw/assets/main.js',
+        async: true,
+        defer: true,
+      },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-61GHWGHQ0L',
         async: true,
       },
       // Google Analytics
@@ -58,7 +63,7 @@ export default {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-Z691T4Q3Q7');
+          gtag('config', 'G-61GHWGHQ0L');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
@@ -71,7 +76,7 @@ export default {
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-5HHQ359');
+          })(window,document,'script','dataLayer','GTM-WXN48JR');
         `,
         type: 'text/javascript',
         charset: 'utf-8',
@@ -79,11 +84,9 @@ export default {
     ],
     __dangerouslyDisableSanitizers: ["script"],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://wanma.tw/wp-content/uploads/2023/06/whole_alphard_logo.png' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://wanma.tw/wp-content/uploads/2023/08/wanma.png' },
       { rel: 'stylesheet', href: 'https://wanma.tw/assets/main.css' },
-      { rel: 'javascript', href: 'https://wanma.tw/assets/main.js' },
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css' },
-  
     ]
   },
 
@@ -108,7 +111,7 @@ export default {
   modules: ['@nuxtjs/sitemap'],
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://wanma.tw', // 替换为你的网站域名
+    hostname: 'https://wanma.tw',
     gzip: true,
     routes: generateRoutes(),
   },
