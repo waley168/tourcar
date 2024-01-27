@@ -32,10 +32,11 @@
                 </div>
                 <div class="section portion225">
                     <p class="contact-title">歡迎使用</p>
-                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
-                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                    <i class="fa fa-cc-jcb" aria-hidden="true"></i>
-
+                    <img class="pay-icon" src="https://wanma.tw/assets/visa.svg" alt="visa刷卡支付">
+                    <img class="pay-icon" src="https://wanma.tw/assets/Mastercard-logo.svg" alt="Mastercard刷卡">
+                    <img class="pay-icon" src="https://wanma.tw/assets/JCB_logo.svg" alt="JCB刷卡">
+                    <img class="pay-icon" src="https://wanma.tw/assets/Google_Pay_Logo.svg" alt="Google Pay快速付款">
+                    <img class="pay-icon" src="https://wanma.tw/assets/spgateway_logo.png" alt="藍新支付">
                 </div>
                 <div class="section portion225">
                     <p class="contact-title">萬馬接送</p>

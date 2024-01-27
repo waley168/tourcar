@@ -86,7 +86,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://wanma.tw/wp-content/uploads/2023/08/wanma.png' },
       { rel: 'stylesheet', href: 'https://wanma.tw/assets/main.css' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0' },
     ]
   },
 
