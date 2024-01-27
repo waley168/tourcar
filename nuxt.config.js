@@ -1,24 +1,18 @@
 import locations from './locations';
 
 const generateLocationPairs = () => {
-  const highWeightLocationsFrom = locations.filter(location => location.id >= 121 && location.id <= 122);
-  const highWeightLocationsTo = locations.filter(location => location.weight > 1);
+  const highWeightLocationsFrom = locations.filter(location => location.weight > 1  && location.id >= 1 && location.id <=3000);
 
-  const highWeightPairs = [];
-  highWeightLocationsFrom.forEach(fromLocation => {
-    highWeightLocationsTo
-      .filter(toLocation => fromLocation.id !== toLocation.id)
-      .forEach(toLocation => {
-        highWeightPairs.push([fromLocation, toLocation]);
-      });
-  });
+  const highWeightPairs = highWeightLocationsFrom.map(fromLocation => [fromLocation]);
+
   return [...highWeightPairs];
 };
+
 
 const locationPairs = generateLocationPairs();
 
 const generateRoutes = () => {
-  return locationPairs.map(([fromLocation, toLocation]) => `/route/${fromLocation.name}/${toLocation.name}`);
+  return locationPairs.map(([fromLocation]) => `/route/${fromLocation.name}`);
 };
 
 // 在 extendRoutes 中使用 locationPairs
@@ -26,9 +20,9 @@ const generateRoutes = () => {
 export default {
   router: {
     extendRoutes(routes, resolve) {
-      const newRoutes = locationPairs.map(([fromLocation, toLocation]) => ({
-        name: `${fromLocation.name}-to-${toLocation.name}`,
-        path: `/${fromLocation.name}/${toLocation.name}`,
+      const newRoutes = locationPairs.map(([fromLocation]) => ({
+        name: `${fromLocation.name}`,
+        path: `/${fromLocation.name}`,
         component: resolve(__dirname, 'pages/_from/_to.vue'),
       }));
       routes.push(...newRoutes);
@@ -47,6 +41,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     script: [
+      {
+        src: 'https://wholealphard.com/assets/main.js',
+        async: true,
+        body: true,
+      },
       {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-Z691T4Q3Q7',
         async: true,
@@ -117,6 +116,6 @@ export default {
     publicPath: 'https://wholealphard.com/route/_nuxt/',
   },
   render: {
-    injectScripts: true,
+    injectScripts: false,
   }
 }

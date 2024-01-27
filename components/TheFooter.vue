@@ -59,6 +59,7 @@
                     租無菸車, 禮賓租車, 禮賓接送
                 </div>
             </div>
+            <!---
             <div class="content">
                 <div class="section portion3 margin0">
                     <p class="contact-title">㊓ 高雄總店：左營區文府路286號</p>
@@ -70,6 +71,7 @@
                     <p class="contact-title">㊓ 屏東旗艦店：自由路94號</p>
                 </div>
             </div>
+            -->
             <div class="address">
                 <div class="section">
                     <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+886907701070" data-type="tel" data-id="tel:+886907701070">0907-701-070</a><br /><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:threeshotscar@gmail.com" data-type="mailto" data-id="mailto:threeshotscar@gmail.com"> threeshotscar@gmail.com</a><br />租車請提前透過<a href="https://line.me/R/ti/p/@662hnbde" data-type="URL" data-id="https://line.me/R/ti/p/@662hnbde" target="_blank" rel="noreferrer noopener">網路Line預訂</a>或來電詢問哦！</p>
@@ -77,17 +79,7 @@
             </div>
         </div>
         <div class="copyright">
-            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> {{ currentYear }} 總發租車 Whole Alphard
+            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> <span id="year"></span> 總發租車 Whole Alphard
         </div>
     </footer>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            currentYear: new Date().getFullYear()
-        }
-    }
-}
-</script>

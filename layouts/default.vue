@@ -75,12 +75,12 @@
                         <tbody>
                             <tr>
                                 <td>一日租車</td>
-                                <td>$7,500 / 日</td>
+                                <td>$<span id="rent-one-day"></span> / 日</td>
                                 <td>每日以24小時計算，單日行駛里程數250公里。</td>
                             </tr>
                             <tr>
                                 <td>多日租車</td>
-                                <td>$7,500 / 日</td>
+                                <td>$<span id="rent-multi-days"></span> / 日</td>
                                 <td>多日租優惠：承租2日（含）以上，優惠單日里程為300公里。</td>
                             </tr>
                             <tr>
@@ -133,7 +133,7 @@
                             <tr>
                                 <td>台北市區</td>
                                 <td>Alphard包車一日</td>
-                                <td>$9,200 / 8小時</td>
+                                <td>$<span id="chartered-one-day-taipei"></span> / 8小時</td>
                             </tr>
                             <tr>
                                 <td>台中市區</td>
