@@ -1764,9 +1764,9 @@
         <h2>預訂{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}接送流程</h2>
         <ol>
             <li><strong>預訂畫面</strong>：「輕鬆預訂，您的旅程從這裡開始！」</li>
-            <li><strong>付款畫面</strong>：「多種付款方式，安全又便捷！」</li>
-            <li><strong>訂單列表</strong>：「一目了然，輕鬆管理您的所有行程！」</li>
-            <li><strong>訂單完成</strong>：「準備出發，我們已經為您安排好一切！」</li>
+            <li><strong>完成預訂</strong>：「多種客製化服務，方便又快速！」</li>
+            <li><strong>查看訂單列表</strong>：「一目了然，輕鬆管理您的所有行程！」</li>
+            <li><strong>車輛已經備妥</strong>：「準備出發，我們已經為您安排好一切！」</li>
         </ol>
         <div class="content align-items-center">
             <div class="section portion3">
@@ -1777,15 +1777,15 @@
                         </p>
                     </div>
                     <div class="faq-item">
-                        <h3 class="faq-question">2. 付款畫面</h3>
-                        <p class="faq-answer">我們採用藍新金流支付，用戶可以選擇多種付款方式，無論是信用卡、電子錢包或是網路銀行，都能輕鬆完成交易。我們確保您的交易安全，讓您無後顧之憂。</p>
+                        <h3 class="faq-question">2. 完成預訂</h3>
+                        <p class="faq-answer">完成訂單後付款，至此預訂部分已經完成。我們採用藍新金流支付，用戶可以選擇多種付款方式，無論是信用卡、電子錢包或是網路銀行，都能輕鬆完成交易。我們確保您的交易安全，讓您無後顧之憂。</p>
                     </div>
                     <div class="faq-item">
                         <h3 class="faq-question">3. 訂單列表</h3>
                         <p class="faq-answer">在訂單列表中，用戶不僅可以查看即將到來的行程，還可以檢視過去的訂單紀錄。每一筆訂單都清晰顯示詳細訊息，讓您完全掌控。</p>
                     </div>
                     <div class="faq-item">
-                        <h3 class="faq-question">4. 訂單完成</h3>
+                        <h3 class="faq-question">4. 車輛已經備妥</h3>
                         <p class="faq-answer">
                             當訂單狀態顯示「已完成」時，代表您的車輛已經準備妥當，畫面上也會顯示駕駛的資訊，駕駛也會事前主動聯絡您。只等您踏上旅程，享受舒適的接送體驗。另外我們有提供臨時聊天室，您可以在這邊留下訊息。
                         </p>
@@ -1794,7 +1794,7 @@
 
             </div>
             <div class="section portion6">
-                <img src="https://wanma.tw/wp-content/uploads/2023/10/process.png" />
+                <img src="https://wanma.tw/wp-content/uploads/2024/01/guide_all.jpg" />
             </div>
         </div>
         <h2>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}接送常見問題</h2>

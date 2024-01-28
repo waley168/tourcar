@@ -1,77 +1,63 @@
 <template>
   <div>
-    <h1>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}阿法租車|商務租車|家庭旅遊|到府牽車</h1>
+    <h1>{{ fromLocation.name }}{{ toLocation.name ? ' - ' + toLocation.name : '' }}接送|機場接送|跨縣市包車服務|旅遊接駁</h1>
     <div class="content">
       <div class="section portion45">
 
-        <h2>【<a rel="noopener noreferrer" href="https://wholealphard.com/">{{ fromLocation.name }}{{ toLocation.name ? '、' + toLocation.name : '' }}<strong><em>阿法租車</em></strong></a>】Alphard包車推薦！</h2>
+        <h2>【<a rel="noopener noreferrer" href="https://wanma.tw/">{{ fromLocation.name }}{{ toLocation.name ? '、'
+          + toLocation.name : '' }}<strong><em>專車接送</em></strong></a>】PTT、Dcard推薦！</h2>
         <div class="text_box">
-          <p>總發給您最尊榮不凡的租車體驗，享受最高檔的旅程就選阿法租車吧！總發阿法租車提供您最高檔新穎Alphard車款，適合用於: 機場接送、商務接送、家庭租車出遊、租alphard一日遊、多日遊、環島旅遊、隱私醫美旅行、企業活動租車…等服務，帶給您最大器體面的移動方式。</p><p>除此之外，我們還提供包車服務(租車附駕駛)、多元接送服務，專業司機熟悉{{ fromLocation.name }}{{ toLocation.name ? '、' + toLocation.name : '' }}交通路況，給您最穩重可靠的駕駛服務，安全準時將您送達指定的目的地。</p><p>皆依政府規定車輛均有定期檢查，並投保高額乘客保險。契約費用透明化，絕不隨意亂喊價或是添加額外費用，讓您安心搭乘無負擔。</p>
-          阿法租車：
-          <h3><a rel="noopener noreferrer"
-              href="https://wholealphard.com/alphard/"><strong><em>{{ fromLocation.name }}租車自由行</em></strong></a>
+          <p>
+            選擇萬馬接送體驗非凡的接送服務，萬馬接送為您提供一系列乾淨新穎的車款，包括五人座轎車、休旅車以及九人座休旅車，滿足各種需求。無論是機場接送、商務行程、家庭出遊、一日或多日遊，乃至環島旅遊和隱私保障的醫美旅程，甚至企業活動用車，我們都能為您提供最適合的選擇。
+          </p>
+          <p>我們的多元化接送方案，能夠確保您的每次出行的舒適與效率。司機團隊對{{ fromLocation.name }}{{ toLocation.name ? '、' + toLocation.name : ''
+          }}交通狀況了如指掌，保證您的安全與準時抵達。</p>
+          <p>我們嚴格遵循政府規定，定期進行車輛檢查，並為每輛車投保高額乘客保險，確保您的行程安全無慮。在萬馬接送，我們承諾費用透明，無隱藏額外收費，讓您的每一次乘坐都輕鬆愉快，無後顧之憂。</p>
+          機場接送：
+          <h3><a rel="noopener noreferrer" href="https://wanma.tw/express/"><strong><em>{{ fromLocation.name
+          }}接機服務</em></strong></a>
+          </h3>
+          、<a rel="noopener noreferrer" href="https://wanma.tw/express/"><strong>送機服務</strong></a><br />
+          各地接駁：
+          <h3><a rel="noopener noreferrer" href="https://wanma.tw/express/"><strong><em>{{ toLocation.name
+          }}全台灣各地接駁</em></strong></a>
           </h3>
           、<a rel="noopener noreferrer"
-            href="https://wholealphard.com/alphard-chartered/"><strong>Alphard商務租車</strong></a><br />
-          阿法包車：
-          <h3><a rel="noopener noreferrer"
-              href="https://wholealphard.com/portfolio/"><strong><em>{{ toLocation.name }}包車</em></strong></a>
-          </h3>
-          、<a rel="noopener noreferrer"
-            href="https://wholealphard.com/"><strong>雲嘉南包車</strong></a>、<strong>花蓮-墾丁/墾丁-花蓮專線</strong><br />
+            href="https://wanma.tw/express/"><strong>跨縣市包車服務</strong></a>、<strong>墾丁-高雄專線</strong><br />
           接機、送機首選：
-          <h3><a rel="noopener noreferrer" href="https://wholealphard.com/faq/"><strong>小港機場接送</strong></a>
+          <h3><a rel="noopener noreferrer" href="https://wanma.tw/express/"><strong>小港機場接送</strong></a>
           </h3>
-          、<a rel="noopener noreferrer" href="https://wholealphard.com/"><strong>企業長期接送</strong></a>、<a
-            rel="noopener noreferrer" href="https://wholealphard.com/"><strong>商務包車</strong></a>
+          、<a rel="noopener noreferrer" href="https://wanma.tw/express/"><strong>企業長期接送</strong></a>、<a
+            rel="noopener noreferrer" href="https://wanma.tw/express/"><strong>商務包車</strong></a>
         </div>
+        <hr>
         <div class="buttons_container">
-          <a href="https://wholealphard.com/">
+          <a href="https://wanma.tw/express/">
             <div class="refined-button">車款價格</div>
           </a>
-          <a href="https://wholealphard.com/">
-            <div class="refined-button">租車/包車服務</div>
+          <a href="https://wanma.tw/express/">
+            <div class="refined-button">接送/包車服務</div>
           </a>
-          <a href="https://line.me/R/ti/p/@662hnbde" target="_blank" rel="noopener noreferrer">
+          <a href="https://line.me/R/ti/p/@165hwivs" target="_blank" rel="noopener noreferrer">
             <div class="refined-button">立即預約</div>
           </a>
         </div>
-        <h2>阿法租車<a href="https://wholealphard.com/">車款介紹</a></h2>
-        <div class="text_box">
-          <ul>
-            <li>
-              <h3>7人座阿法租車</h3>
-            </li>
-            <li>
-              <h3>七人座Alphard包車旅遊</h3>
-            </li>
-            <li>
-              <h3>LM 300h包車</h3>
-            </li>
-            <li>
-              <h3>7人座lm租車</h3>
-            </li>
-          </ul>
-        </div>
-        <div class="img-container" style="background-image:url(https://wholealphard.com/wp-content/uploads/2023/06/left.png)"></div><div class="img-container" style="background-image:url(https://wholealphard.com/wp-content/uploads/2023/06/right.png)"></div>
       </div>
       <div class="section portion45">
         <div class="jumbotron">
-          <h2>總發阿法租車|阿法包車|牽車到府</h2>
+          <h2>機場接送|跨縣市包車服務|旅遊接駁</h2>
           <hr>
-          探索城市的奇蹟，享受旅程的樂趣，一切盡在我們高檔新穎的阿法（Alphard）汽車中。每一輛阿法都代表著我們對品質、舒適度以及創新技術的無止境追求。阿法（Alphard）不僅擁有優雅的外觀設計，而且內飾精緻，舒適度極高。寬敞的座椅，豪華的內飾，最新的娛樂系統，無論是短途還是長途旅行，阿法都能提供最佳的駕駛體驗。
-          <h3>訂製的行程安排</h3>
-          任何的標準化行程，未必適合每位層峰客戶。在聽取您的需求後，我們會為您量身定制出最滿意的服務規劃。
-          <h3>尊爵不凡的阿法（Alphard）</h3>
-          我們了解，租賃一輛豪華汽車的目的不僅僅是從A點到B點，更是關於享受旅程的過程。阿法（Alphard）正是為此而設計。強大的發動機，流暢的操控性能，加上頂級的安全特性，不僅能讓您安全地到達目的地，而且還能享受到駕駛的樂趣。
-          <h3>最優惠的阿法租車價格</h3>
-          相較於其他租車服務平台，多數需要複雜手續費和抽佣，我們的團隊則由車主直接報價，繞過所有中間環節，為旅客提供最優惠的阿法租車價格，價格保證市場最划算，我們也承諾不會嵌入任何未告知的隱藏收費。
-          <h3>立即暢通的客訴管道</h3>
-          為免遊客於旅途中，與司機溝通不順，或司機行為失當等等情事，可隨時用官方通訊軟體，總部會立即更換車輛，並視情況補償損失，絕不讓我方駕駛之失誤，影響遊客興致，務必讓此趟行程，載滿美好回憶而歸。
-          <h3>專業司機(包車限定)</h3>
-          注重客戶感受，定期進行內部教育訓練，提升我們的阿法租車服務品質！多年來導覽經驗，有什麼好吃好玩的務必讓您知道，成為您在當地最佳旅遊夥伴。
-          <h3>不斷創新的精神</h3>
-          為了避免旅客在旅途中不順利，發生任何狀況，您可隨時通過官方通訊APP聯繫我們，我們會立即更換車輛，並視情況賠償損失，決不讓我們的失誤影響您的旅行興致，務必讓此趟行程充滿美好回憶。
+          萬馬接送帶您探索城市的奇蹟，享受旅途的樂趣。我們的高檔新穎車隊，包括舒適的五人座轎車、寬敞的休旅車，以及豪華的九人座休旅車，每一輛都代表著我們對品質、舒適度以及創新技術的追求。無論是短途或長途旅行，我們的車隊都能提供最佳的駕駛體驗。
+          <h3>客製化行程訂製</h3>
+          我們明白標準化行程並不適合每位客戶。您可以在萬馬接送預訂系統量身定制最滿意的路線規劃。
+          <h3>透明合理的價格</h3>
+          相較於其他服務，「萬馬接送」提供直接報價，避免中間環節，為您帶來市場上最具競爭力的價格。我們承諾價格透明，無隱藏費用，讓您的旅程無後顧之憂。
+          <h3>隨時可達的客戶服務</h3>
+          若在旅途中遇到任何問題，您可以通過我們的官方通訊渠道隨時聯繫我們。我們承諾快速響應，確保您的旅行愉快而順暢。
+          <h3>專業的司機團隊</h3>
+          我們的司機團隊不僅有豐富的駕駛經驗，還經過專業訓練，以確保您的行程安全舒適。
+          <h3>創新與進步的承諾</h3>
+          萬馬接送始終致力於創新和改善服務。無論遇到任何挑戰，我們都準備好迅速解決，確保您的旅程充滿愉快的回憶。
         </div>
       </div>
     </div>
@@ -101,12 +87,12 @@
 import locations from '@/locations.js';
 function createSchema(fromLocation, toLocation) {
   return {
-    "@context": "http://schema.org/", "@type": "Product", "name": `${fromLocation.name} - ${toLocation.name} 阿法租車|商務租車|家庭旅遊|到府牽車`, "image": "https://wholealphard.com/wp-content/uploads/2023/06/wholealphard-banner01.png", "description": `無論是高端企業商務租車、尊爵不凡阿法租車旅遊，還是定期的醫療或醫美需求，${fromLocation.name} 到 ${toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的阿法租車服務。我們另有提供租車附駕駛（包車）讓您的寶貴時間不再因為不熟悉${toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的阿法租車與包車接送。`, "brand": { "@type": "Brand", "name": "總發阿法租車", "logo": "https://wholealphard.com/wp-content/uploads/2023/06/whole_alphard_logo.png" }, "offers": { "@type": "Offer", "priceCurrency": "TWD", "price": "12050", "priceValidUntil": "2024-06-16", "availability": "https://schema.org/InStock", "url": "https://wholealphard.com/route/" }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "2573", "reviewCount": "243", "worstRating": "1", "bestRating": "5" }, "review": [{ "@type": "Review", "name": "第一次租阿法旅行，很開心免費升等...", "author": { "@type": "Person", "name": "張小萍" }, "datePublished": "2022-07-20", "reviewBody": "第一次包車旅行，很開心免費升等，司機李先生很nice，開車很穩，也會介紹好吃好玩的景點，超級推薦", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "新車氣味很好...", "author": { "@type": "Person", "name": "阮嫈娜" }, "datePublished": "2021-12-25", "reviewBody": "司機服務很好，車況也很好下次有機會還會再請你們服務喔", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "非常自由的客製化行程...", "author": { "@type": "Person", "name": "徐繹舜" }, "datePublished": "2021-09-23", "reviewBody": "非常自由的客製化行程，還會依照你的行程報價確認，此次還被免費升級車款，司機鍾大哥非常nice，幫開車門還會介紹好吃餐廳，有機會會在預約總發", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }]
+    "@context": "http://schema.org/", "@type": "Product", "name": `${fromLocation.name} - ${toLocation.name} 接送|機場接送|跨縣市包車服務|旅遊接駁`, "image": "https://wanma.tw/wp-content/uploads/2024/01/cover_wanma.jpg", "description": `尋找便捷、舒適的專車接送體驗？${fromLocation.name} 到 ${toLocation.name} 僅需$起，保證無菸車。萬馬接送為您提供客製化行程、即時航班追蹤的機場接送，並滿足特殊需求如嬰兒座椅、多語言司機等。讓您的寶貴時間不再因為不熟悉${toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的萬馬接送。`, "brand": { "@type": "Brand", "name": "萬馬接送", "logo": "https://wanma.tw/wp-content/uploads/2023/08/wanma.png" }, "offers": { "@type": "Offer", "priceCurrency": "TWD", "price": "900", "priceValidUntil": "2028-06-16", "availability": "https://schema.org/InStock", "url": "https://wanma.tw/route/" }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "1583", "reviewCount": "643", "worstRating": "1", "bestRating": "5" }, "review": [{ "@type": "Review", "name": "車子超乾淨又新司機配合度超高駕駛技術超安全大推", "author": { "@type": "Person", "name": "Nicole Shih" }, "datePublished": "2022-07-20", "reviewBody": "司機親切人又好玩得很開心～", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "新車氣味很好...", "author": { "@type": "Person", "name": "阮嫈娜" }, "datePublished": "2021-12-25", "reviewBody": "司機服務很好，車況也很好下次有機會還會再請你們服務喔", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }, { "@type": "Review", "name": "非常自由的客製化行程...", "author": { "@type": "Person", "name": "徐繹舜" }, "datePublished": "2021-09-23", "reviewBody": "服務是很好，車子乾淨，時間控制的剛好，特別是客服時時關心我們客戶，謝謝你們，值得再使用", "reviewRating": { "@type": "Rating", "ratingValue": "5", "worstRating": "1", "bestRating": "5" } }]
   };
 }
 export default {
   head() {
-    const pageTitle = `${this.fromLocation.name} - ${this.toLocation.name} 阿法租車|商務租車|家庭旅遊|到府牽車`;
+    const pageTitle = `${this.fromLocation.name} - ${this.toLocation.name} 接送|機場接送|跨縣市包車服務|旅遊接駁`;
 
     return {
       title: pageTitle,
@@ -114,7 +100,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: `無論是高端企業商務租車、尊爵不凡阿法租車旅遊，還是定期的醫療或醫美需求，${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的阿法租車服務。我們另有提供租車附駕駛（包車）讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的阿法租車與包車接送。`
+          content: `尋找便捷、舒適的專車接送體驗？${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。萬馬接送為您提供客製化行程、即時航班追蹤的機場接送，並滿足特殊需求如嬰兒座椅、多語言司機等。讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的萬馬接送。`
         },
         {
           hid: 'og:title',
@@ -124,7 +110,7 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: `無論是高端企業商務租車、尊爵不凡阿法租車旅遊，還是定期的醫療或醫美需求，${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。專業客服讓您輕鬆建立行程，享受專屬的阿法租車服務。我們另有提供租車附駕駛（包車）讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的阿法租車與包車接送。`
+          content: `尋找便捷、舒適的專車接送體驗？${this.fromLocation.name} 到 ${this.toLocation.name} 僅需$起，保證無菸車。萬馬接送為您提供客製化行程、即時航班追蹤的機場接送，並滿足特殊需求如嬰兒座椅、多語言司機等。讓您的寶貴時間不再因為不熟悉${this.toLocation.name}而找不到路、或是在大眾運輸上浪費時間，立刻輕鬆體驗舒適便捷的萬馬接送。`
         },
       ],
       script: [
