@@ -1,7 +1,7 @@
 import locations from './locations';
 
 const generateLocationPairs = () => {
-  const highWeightLocationsFrom = locations.filter(location => location.id >= 121 && location.id <= 122);
+  const highWeightLocationsFrom = locations.filter(location => location.id >= 401 && location.id <= 419);
   const highWeightLocationsTo = locations.filter(location => location.weight > 1);
 
   const highWeightPairs = [];
