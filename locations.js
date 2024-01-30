@@ -240,8 +240,8 @@ export default [
   {id: 417, name: '農業部', region: '台北市', weight: 6},
   {id: 418, name: '環保署', region: '台北市', weight: 6},
   {id: 419, name: '中央銀行', region: '台北市', weight: 6},
-  {id: 420, name: '桃園國際機場TPE', region: '桃園市', weight: 9},
-  {id: 421, name: '臺北松山機場TSA', region: '台北市', weight: 8},
-  {id: 422, name: '高雄國際機場KHH', region: '高雄市', weight: 8},
-  {id: 423, name: '臺中國際機場RMQ', region: '台中市', weight: 7},
+  {id: 420, name: '桃園國際機場TPE', region: '桃園市', weight: 19},
+  {id: 421, name: '臺北松山機場TSA', region: '台北市', weight: 18},
+  {id: 422, name: '高雄國際機場KHH', region: '高雄市', weight: 18},
+  {id: 423, name: '臺中國際機場RMQ', region: '台中市', weight: 17},
 ];
